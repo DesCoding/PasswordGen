@@ -1,9 +1,13 @@
 # PasswordGen
-Use JavaScript to generate a random password.
+Use JavaScript to generate a random password.  Password must be meet specific criteria to ensure employee safety.
 
 ### Deployed Finished Product .
 link to repo
 link to page
+
+
+
+
 
 ![Media-Demo](map to image)
 
