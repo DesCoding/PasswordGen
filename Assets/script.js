@@ -82,7 +82,7 @@ function generatePassword() {
     //Variable to store password as it is being concantenated
   var result = [];
 
-    // a (local var) possilbeCharacters; any []include in password
+    // All arrays to be included
   var possibleCharacters = [];
 
     //Array to contain one of each type of chosen character to ensure each will be used
@@ -115,19 +115,18 @@ function generatePassword() {
     possibleCharacters = possibleCharacters.concat(upperCasedCharacters);
     guaranteedCharacters.push(getRandom(upperCasedCharacters));
   }
-    console.log(possibleCharacters)  
-    //For loop to iterate over the password length from the options object, selecting random indicies from the array of possible characters and concantenate
+  //For loop to iterate over the password length from the options object, selecting random indicies from all characters and concantenate
   for (var i = 0; i < options.length; i++) {
     var newCharacter = getRandom(possibleCharacters);
 
     result.push(newCharacter);
   }
 
-    //Mix in at least one of each guaranteed charachter in the result
+  //Mix in at least one of each guaranteed charachter in the result
   for (var i = 0; i < guaranteedCharacters.length; i++) {
     result[i] = guaranteedCharacters[i];
   }
-      //Transform the result into a string and pass into writePassword
+    //Transform the result into a string and pass into writePassword
     return result.join('');
 } 
 
