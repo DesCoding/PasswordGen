@@ -1,14 +1,9 @@
 # PasswordGen
-Use JavaScript to generate a random password.  Password must be meet specific criteria to ensure employee safety.
+Use JavaScript to generate a random password.  To ensure employee safety, password must be between 8 and 128 characters, utilize numbers, and utilize both upper and lower case letters.  
 
 ### Deployed Finished Product .
 link to repo
 link to page
-
-
-
-
-
 ![Media-Demo](map to image)
 
 This week’s homework requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
