@@ -115,12 +115,12 @@ function generatePassword() {
     possibleCharacters = possibleCharacters.concat(upperCasedCharacters);
     guaranteedCharacters.push(getRandom(upperCasedCharacters));
   }
-      
+    console.log(possibleCharacters)  
     //For loop to iterate over the password length from the options object, selecting random indicies from the array of possible characters and concantenate
   for (var i = 0; i < options.length; i++) {
-    var possibleCharacters = getRandom(possibleCharacters);
+    var newCharacter = getRandom(possibleCharacters);
 
-    result.push(possibleCharacters);
+    result.push(newCharacter);
   }
 
     //Mix in at least one of each guaranteed charachter in the result
