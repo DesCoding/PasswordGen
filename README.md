@@ -6,5 +6,5 @@ Repo:  https://github.com/DesCoding/PasswordGen.git
 Site:  https://descoding.github.io/PasswordGen/
 
 ### Demo
-![media-demo](Assets\PasswordGen.png)
+![Media-Demo](Assets/PasswordGen.png)
 
